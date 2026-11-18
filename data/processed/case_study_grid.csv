@@ -1,0 +1,17 @@
+case,vertical,platform,offering,headline_metric_family,quantified_outcome,period_stated,baseline_level_shown,concurrent_comparison,window_mentioned,ramp_up_excluded,interval_or_significance,other_changes_disclosed,offline_or_crm_outcome,signal_quality_reported,labelled_measured_not_incremental
+CS01,Retail,Snap,App CAPI,ROAS / ROI,True,True,False,False,False,False,False,False,False,False,False
+CS02,Fashion,Snap,Web CAPI,ROAS / ROI,True,False,False,False,False,False,False,False,False,False,False
+CS03,QSR,Meta,Web CAPI,Conversions / revenue,True,False,False,True,False,False,False,False,False,False,True
+CS04,Streaming,Meta,Web CAPI,Conversions / revenue,True,False,False,False,False,False,False,False,False,False,True
+CS05,Beauty,Google,Web CAPI,Conversions / revenue,True,False,False,False,False,False,False,False,False,False,True
+CS06,QSR,Snap,"App CAPI, Web CAPI",Cost per result,True,True,False,False,True,False,False,True,False,False,False
+CS07,Media,Meta,Web CAPI,Go-live / process only,False,False,False,False,False,False,False,False,False,False,False
+CS08,Beauty,Snap,"Web CAPI, Offline CAPI",ROAS / ROI,True,True,True,False,False,False,False,False,True,False,False
+CS09,Retail,Snap,"Web CAPI, App CAPI",ROAS / ROI,True,False,False,False,False,False,False,False,False,False,False
+CS10,QSR,Meta,Offline CAPI,ROAS / ROI,True,True,False,False,False,False,False,True,True,True,False
+CS11,Agency,Meta,Web CAPI,Go-live / process only,False,False,False,False,False,False,False,False,False,False,False
+CS12,Fashion,Meta,Offline CAPI,ROAS / ROI,True,True,False,False,False,False,False,False,True,False,False
+CS13,Water technology,Snap,Web CAPI,ROAS / ROI,True,False,True,False,False,False,False,True,False,False,False
+CS14,Streaming,Meta,Web CAPI,Go-live / process only,False,False,False,False,False,False,False,False,False,False,False
+CS15,Automotive,Google,Web CAPI,Cost per result,True,False,False,False,False,False,False,True,False,False,True
+CS16,Education,Meta,CRM CAPI,Conversions / revenue,True,True,False,True,False,False,False,False,True,False,False

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+data/raw/
+data/_hidden_truth.csv
+*.tmp
+_print.pdf
+docs/report.html

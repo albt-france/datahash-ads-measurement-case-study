@@ -1,0 +1,9 @@
+event,check,detected,trap,truth,true_reported_change,true_business_change,interval_covers_truth
+1,"True uplift kept, sized on business not on platform",True,True uplift,"Meta-reported conversions +18%, client revenue only +4% (signal recovered vs value)",0.18,0.04,True
+2,"Broken dedup flagged, uplift rejected",True,Broken deduplication,"Server events sent without event_id until 26 Oct 2025: reported +35%, all duplicates",0.35,0.0,True
+3,Ramp-up excluded (learning dip visible),True,Ramp-up,10-day learning phase after go-live (dip then recovery) must be excluded,,,
+4,Seasonal false signal not retained,True,Seasonal false signal,"Read window falls on Ramadan 2026: naive pre/post up, no business effect",0.06,0.0,False
+5,"Window change found, consistent read used",True,Attribution window change,"Meta setting 7d click + 1d view -> 7d click on 14 Jun 2026: reported drop, not real",0.1,0.06,True
+6,EMQ gain not sold as value,True,"EMQ up, no value",EMQ 4.6 -> 8.3 on App CAPI with no business effect,0.05,0.0,True
+7,Geo effect found with interval,True,Geo test,Google Tag Gateway as bidding signal in 6 treated regions: bookings +5%,0.11,0.05,True
+8,Click-date dip not read as a drop,True,Click-date lag,Conversions by click date incomplete for the last weeks before 31 Oct 2026,,,

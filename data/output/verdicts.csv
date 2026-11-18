@@ -1,0 +1,9 @@
+use_case_id,verdict
+UC1,Incremental business effect
+UC2,Not real: duplicates (event_id missing)
+UC3,"Signal recovered, no business effect shown"
+UC4,Seasonal: naive uplift not retained
+UC5,"Signal recovered, no business effect shown"
+UC7,Incremental business effect
+UC8,Incremental business effect
+UC6,"Measurement change (GA4), not business"

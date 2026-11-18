@@ -1,0 +1,287 @@
+{
+ "client": "client_e",
+ "use_case_id": "UC7",
+ "client_label": "Client E \u00b7 Bank & insurance",
+ "use_case": "CRM Conversions API",
+ "platform": "Meta",
+ "market": "UAE",
+ "control_market": "KSA",
+ "go_live": "2026-05-03",
+ "ramp_up_days": 14,
+ "read_start": "2026-05-17",
+ "read_end": "2026-07-11",
+ "read_weeks": 8,
+ "pre_weeks": 52,
+ "facts": [
+  {
+   "id": "orders_effect",
+   "value": 0.05373446991502606,
+   "unit": "pct",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": "data/output/use_case_reads.csv:UC7.business_effect"
+  },
+  {
+   "id": "orders_lo",
+   "value": 0.0342329180407108,
+   "unit": "pct",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": "data/output/use_case_reads.csv:UC7.business_lo"
+  },
+  {
+   "id": "orders_hi",
+   "value": 0.073505901078348,
+   "unit": "pct",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": "data/output/use_case_reads.csv:UC7.business_hi"
+  },
+  {
+   "id": "reported_effect",
+   "value": 0.07391259114479432,
+   "unit": "pct",
+   "metric": "reported_conversions",
+   "kind": "value",
+   "window": "7d_click",
+   "source": "data/output/use_case_reads.csv:UC7.reported_effect"
+  },
+  {
+   "id": "reported_lo",
+   "value": 0.01078422744634226,
+   "unit": "pct",
+   "metric": "reported_conversions",
+   "kind": "value",
+   "window": "7d_click",
+   "source": "data/output/use_case_reads.csv:UC7.reported_lo"
+  },
+  {
+   "id": "reported_hi",
+   "value": 0.13941346907527827,
+   "unit": "pct",
+   "metric": "reported_conversions",
+   "kind": "value",
+   "window": "7d_click",
+   "source": "data/output/use_case_reads.csv:UC7.reported_hi"
+  },
+  {
+   "id": "naive_reported",
+   "value": 0.08314707197139048,
+   "unit": "pct",
+   "metric": "reported_conversions",
+   "kind": "value",
+   "window": "7d_click",
+   "source": "data/output/sql_02_pre_post.csv"
+  },
+  {
+   "id": "placebo_n",
+   "value": 22.0,
+   "unit": "count",
+   "metric": "method",
+   "kind": "value",
+   "window": null,
+   "source": "data/output/use_case_reads.csv:UC7.business_placebo_n"
+  },
+  {
+   "id": "inc_orders",
+   "value": 1031.0,
+   "unit": "count",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": "ci_paths.csv (actual - counterfactual)"
+  },
+  {
+   "id": "inc_orders_lo",
+   "value": 669.0,
+   "unit": "count",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "inc_orders_hi",
+   "value": 1384.0,
+   "unit": "count",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "inc_revenue",
+   "value": 433000.0,
+   "unit": "usd",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": "incremental orders x average order value"
+  },
+  {
+   "id": "inc_revenue_lo",
+   "value": 281000.0,
+   "unit": "usd",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "inc_revenue_hi",
+   "value": 581000.0,
+   "unit": "usd",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "aov",
+   "value": 419.78,
+   "unit": "usd",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "spend_read",
+   "value": 362000.0,
+   "unit": "usd",
+   "metric": "spend",
+   "kind": "value",
+   "window": null,
+   "source": "ads_daily"
+  },
+  {
+   "id": "cpa_before",
+   "value": 159.81,
+   "unit": "usd",
+   "metric": "cpa",
+   "kind": "value",
+   "window": "7d_click",
+   "source": "ads_daily spend / conversions"
+  },
+  {
+   "id": "cpa_after",
+   "value": 149.44,
+   "unit": "usd",
+   "metric": "cpa",
+   "kind": "value",
+   "window": "7d_click",
+   "source": ""
+  },
+  {
+   "id": "cpa_change",
+   "value": -0.065,
+   "unit": "pct",
+   "metric": "cpa",
+   "kind": "value",
+   "window": "7d_click",
+   "source": ""
+  },
+  {
+   "id": "roas_before",
+   "value": 2.6,
+   "unit": "ratio",
+   "metric": "roas",
+   "kind": "value",
+   "window": "7d_click",
+   "source": "ads_daily conv_value / spend"
+  },
+  {
+   "id": "roas_after",
+   "value": 2.8,
+   "unit": "ratio",
+   "metric": "roas",
+   "kind": "value",
+   "window": "7d_click",
+   "source": ""
+  },
+  {
+   "id": "emq_before",
+   "value": 5.8,
+   "unit": "score",
+   "metric": "emq",
+   "kind": "health",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "emq_after",
+   "value": 7.8,
+   "unit": "score",
+   "metric": "emq",
+   "kind": "health",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "event_id_cov",
+   "value": 0.9698739791227217,
+   "unit": "pct",
+   "metric": "event_id",
+   "kind": "health",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "match_before",
+   "value": 0.6201607142857143,
+   "unit": "pct",
+   "metric": "match_rate",
+   "kind": "health",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "match_after",
+   "value": 0.7278928571428571,
+   "unit": "pct",
+   "metric": "match_rate",
+   "kind": "health",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "window_reported_change",
+   "value": -0.2596153846153846,
+   "unit": "pct",
+   "metric": "reported_conversions",
+   "kind": "value",
+   "window": "7d_click",
+   "source": ""
+  },
+  {
+   "id": "window_consistent_change",
+   "value": -0.08911671924290221,
+   "unit": "pct",
+   "metric": "reported_conversions",
+   "kind": "value",
+   "window": "7d_click",
+   "source": ""
+  },
+  {
+   "id": "window_business_change",
+   "value": -0.06906103734836189,
+   "unit": "pct",
+   "metric": "orders",
+   "kind": "value",
+   "window": null,
+   "source": ""
+  },
+  {
+   "id": "view_share",
+   "value": 0.18717948717948718,
+   "unit": "pct",
+   "metric": "reported_conversions",
+   "kind": "value",
+   "window": "7d_click_1d_view",
+   "source": ""
+  }
+ ]
+}

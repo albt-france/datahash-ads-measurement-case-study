@@ -1,0 +1,158 @@
+{
+ "criteo": {
+  "users": 13979592,
+  "control_users": 2096937,
+  "treated_users": 11882655,
+  "treated_share": 0.8500001287591226,
+  "cr_control": 0.0019375880152813366,
+  "cr_treated": 0.0030894610674129645,
+  "visit_control": 0.03820095691954503,
+  "visit_treated": 0.048543360048743316,
+  "itt_abs": 0.0011518730521316279,
+  "itt_abs_lo": 0.0010845057902364738,
+  "itt_abs_hi": 0.001219240314026782,
+  "itt_rel": 0.5944881177252619,
+  "itt_rel_lo": 0.5436975782271105,
+  "itt_rel_hi": 0.6469497610321502,
+  "visit_rel": 0.27073675539019604,
+  "exposure_rate": 0.036036727482199896,
+  "cace": 0.031963863885825596,
+  "cace_lo": 0.030094458237700922,
+  "cace_hi": 0.033833269533950265,
+  "cr_exposed": 0.053784106937685074,
+  "cr_unexposed_treated": 0.0011942963966034839,
+  "counterfactual_exposed": 0.021820243051859478,
+  "cace_rel": 1.46487203693644,
+  "naive_ratio": 45.03413649295455,
+  "naive_rel": 44.03413649295455,
+  "incremental_share_exposed": 0.5942994260899288,
+  "exposed_conversions": 23031,
+  "incremental_conversions": 13687.31008227715,
+  "exposure_top20": 0.10476551026695838,
+  "exposure_rest": 0.018655151613074142,
+  "control_cr_top20": 0.00925340543197476,
+  "control_cr_rest": 0.00022543152146561969
+ },
+ "geo": {
+  "effect": 0.049129810559574105,
+  "lo": 0.028845252696007424,
+  "hi": 0.07516353029683083,
+  "p_value": 0.0,
+  "placebo_in_time": -0.010301117279025052,
+  "rmspe_pre": 0.01617192638011859,
+  "naive_prepost": 0.15825529786439252,
+  "did": 0.08068810342803534,
+  "n_treated": 6,
+  "n_controls": 18,
+  "pre_weeks": 78,
+  "test_weeks": 7,
+  "mde_by_weeks": {
+   "4": 0.028594714671391346,
+   "7": 0.021615572523243295,
+   "10": 0.01808488548084597,
+   "13": 0.015861493839225218
+  },
+  "gap_sd": 0.01623436961916032,
+  "gap_rho": 0.22512963336069974,
+  "top_donors": {
+   "Dubai": 0.196,
+   "Riyadh": 0.18,
+   "Pune": 0.111
+  }
+ },
+ "traps": {
+  "ramp": {
+   "with_ramp_4w": {
+    "effect": 0.11055564725382128,
+    "lo": 0.05950917700424584,
+    "hi": 0.1637839255581856,
+    "p_positive": 1.0
+   },
+   "without_ramp_4w": {
+    "effect": 0.18990036048968817,
+    "lo": 0.13665139852761393,
+    "hi": 0.24350458428901525,
+    "p_positive": 1.0
+   },
+   "ramp_days_effect": {
+    "effect": -0.07822852196917068,
+    "lo": -0.15230151496758357,
+    "hi": -0.00569128871305107,
+    "p_positive": 0.019
+   },
+   "ramp_days": 10
+  },
+  "dedup": {
+   "flag_weeks": 8,
+   "first_flag": "2025-09-01",
+   "event_id_coverage_broken": 0.0,
+   "event_id_coverage_fixed": 0.9700090022969116,
+   "reported_per_order_before": 0.11210198954929812,
+   "reported_per_order_broken": 0.1506037978980492,
+   "reported_per_order_after_fix": 0.11284978359416624,
+   "inflation_vs_before": 0.3434533901097221
+  },
+  "window": {
+   "changed_on": "2026-06-14",
+   "from": "7d_click_1d_view",
+   "to": "7d_click",
+   "business_change": -0.06906103734836189,
+   "reported_active_setting_change": -0.2596153846153846,
+   "consistent_7d_click_change": -0.08911671924290221,
+   "view_share_before": 0.18717948717948718
+  },
+  "emq": {
+   "emq_before": 4.612499999999999,
+   "emq_after": 8.278571428571428,
+   "match_before": 0.5562857142857143,
+   "match_after": 0.7547321428571429,
+   "business_effect": -0.0042059579458536556,
+   "business_lo": -0.01520316374173262,
+   "business_hi": 0.007453198369717683
+  },
+  "season": {
+   "business_naive": 0.17900579402502048,
+   "business_effect": 0.026750119300487096,
+   "business_lo": 0.007704138211645429,
+   "business_hi": 0.04538552520413254,
+   "reported_effect": 0.07806352519410864,
+   "ramadan_days_in_read": 30
+  },
+  "lag": {
+   "click_date_change_last3w": -0.06853139471982905,
+   "conv_date_change_last3w": -0.012146614546903911,
+   "travel_google_click_vs_conv_last7d": -0.632631736080012
+  },
+  "ga4": {
+   "sessions_change": 0.010869974428403761,
+   "new_users_change": -0.1705765985431088,
+   "returning_users_change": 0.2039055780396819,
+   "new_share_before": 0.5126728214907565,
+   "new_share_after": 0.42021440749863004,
+   "unassigned_before": 0.08502402273249017,
+   "unassigned_after": 0.04010915316530112,
+   "ga4_purchases_change": -0.008221552161415846,
+   "business_orders_change": -0.07234905623068544,
+   "sessions_per_order_change": 0.08970942272849536,
+   "new_users_per_order_change": -0.10588847343085361,
+   "returning_users_per_order_change": 0.2978001975051787,
+   "ga4_purchases_per_order_change": 0.06912891589233006
+  }
+ },
+ "detected": 8,
+ "events": 8,
+ "grid": {
+  "quantified_outcome": 13,
+  "period_stated": 6,
+  "baseline_level_shown": 2,
+  "concurrent_comparison": 2,
+  "window_mentioned": 1,
+  "ramp_up_excluded": 0,
+  "interval_or_significance": 0,
+  "other_changes_disclosed": 4,
+  "offline_or_crm_outcome": 4,
+  "signal_quality_reported": 1,
+  "labelled_measured_not_incremental": 4
+ },
+ "grid_n": 16
+}
