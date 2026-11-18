@@ -13,13 +13,7 @@ client-ready impact reports and a shared evidence standard.
 | | |
 |---|---|
 | **Report (8 pages, PDF)** | [docs/Datahash_Measurement_CaseStudy.pdf](docs/Datahash_Measurement_CaseStudy.pdf) |
-| **Interactive dashboard** (self-contained HTML, open in a browser) | [dashboard/measurement_dashboard.html](dashboard/measurement_dashboard.html) |
-| **Analysis tracker, pre/post calculator, lift power, evidence checklist** (Excel, live formulas) | [excel/analysis_tracker.xlsx](excel/analysis_tracker.xlsx) |
-| **Client deliverables** (SIMULATED clients A and E): impact report, renewal one-pager, case study with "How we measured it" | [deliverables/](deliverables/) |
-| **Measurement playbook** per use case and platform | [docs/MEASUREMENT_PLAYBOOK.md](docs/MEASUREMENT_PLAYBOOK.md) |
-| **Evidence standard and quality checklist** | [docs/EVIDENCE_STANDARD.md](docs/EVIDENCE_STANDARD.md) |
-| **Reading a platform lift study** · **Glossary** | [docs/PLATFORM_LIFT_GUIDE.md](docs/PLATFORM_LIFT_GUIDE.md) · [docs/GLOSSARY.md](docs/GLOSSARY.md) |
-| **Notebook** (all methods, explained) | [notebooks/measurement.ipynb](notebooks/measurement.ipynb) |
+| **Interactive dashboard** | [Open the dashboard](https://albt-france.github.io/datahash-ads-measurement-case-study/dashboard/measurement_dashboard.html) |
 
 ## Key results
 
